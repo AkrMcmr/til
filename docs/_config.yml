@@ -28,10 +28,11 @@ twitter_username: machi_heigh_ho
 github_username:  AkrMcmr
 
 # Build settings
-remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/architect@v0.2.0
+theme: jekyll-theme-clean-blog
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
