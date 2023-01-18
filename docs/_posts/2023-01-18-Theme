@@ -1,0 +1,31 @@
+---
+layout: post
+title: "jekyllテーマが設定できない…？"
+date: 2023-01-18 16:08:49 +0900
+categories: jekyll 環境問題
+---
+
+## テーマ設定できねー
+https://docs.github.com/ja/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll  
+ここを元に設定してったけど、微妙に詰まったのでメモ。  
+
+https://pages.github.com/themes/  
+ここのなかから、'slate'というテーマにしようとした。  
+_config.ymlを編集、プレビューしようと`jekyll serve`...コケる
+
+```
+     Build Warning: Layout 'page' requested in about.markdown does not exist.
+     Build Warning: Layout 'home' requested in index.markdown does not exist.
+```
+
+Layoutデータがねえよ、みたいな。  
+サーバは立ったのですがローカルホストにアクセスしても画面真っ白でした。
+
+## 解決編
+
+はい、ブログ用のテンプレートじゃなかったことが原因ですね…_リモートのlayoutsディレクトリにdefault.htmlしかないと、そりゃpostとかは認識できんっちゃ。  
+[https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll)  
+代わりにこれを使うことにしました。
+
+しかしこれ、かっちょいいけどコードブロックのcssないじゃん…！
+To Be Continued...
