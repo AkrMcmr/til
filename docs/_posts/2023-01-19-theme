@@ -1,0 +1,18 @@
+---
+layout: post
+title: "2023-01-19-テーマ作ろう"
+date: 2023-01-19 14:38:49 +0900
+categories: jekyll
+---
+
+## themeをamp-affiliatelyに変えました。
+
+ブログテーマを変えた。  
+[https://github.com/chriskyfung/amp-affiliately-jekyll-theme](https://github.com/chriskyfung/amp-affiliately-jekyll-theme)  
+これで一応コードブロックが認識されるようになったのだけど、コードブロックが認識できる、かつおしゃれなブログテーマってないモノかな。  
+探せばあると思うけど、一旦作り方を学習してみよかなと思いました。
+
+正直、markdownがどういう感じで解釈されて、どの時点で言語が特定されて、どうやってcssに反映されてるのかすらわかっていない。  
+もちろんいくつか仮説は思いつくけど。
+
+とくにlearnedなことはないけど、今日はこの辺で。
