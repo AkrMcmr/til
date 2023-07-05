@@ -8,7 +8,14 @@
     if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPad') > 0 || ua.indexOf('iPod') > 0) {
       window.open("https://apps.apple.com/jp/app/id6449475758");
     } else if (ua.indexOf('Android') > 0) {
-      document.getElementById('link-to-store').click();
+//      document.getElementById('link-to-store').click();
+      var link = document.getElementById('yourLinkId');
+var event = new MouseEvent('click', {
+  'view': window,
+  'bubbles': true,
+  'cancelable': true
+});
+link.dispatchEvent(event);
 //      window.open("https://play.google.com/store/apps/details?id=jp.co.enpay.wallet.stg");
     }
   </script>
