@@ -1,0 +1,15 @@
+<html lang="ja">
+
+<body>
+  <script>
+    // iosならapp storeに、androidならgoogle playにリダイレクト
+    var ua = navigator.userAgent;
+    if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPad') > 0 || ua.indexOf('iPod') > 0) {
+      window.open("https://apps.apple.com/jp/app/id6449475758");
+    } else if (ua.indexOf('Android') > 0) {
+      window.open("https://play.google.com/store/apps/details?id=jp.co.enpay.wallet.stg");
+    }
+  </script>
+</body>
+
+</html>
