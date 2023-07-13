@@ -2,11 +2,10 @@
 <html lang="ja">
 
 <body>
-     <div>hoge</div>
 <script>
-     function buttonAlertClick() {
+window.addEventListener("flutterInAppWebViewPlatformReady", function(event) {
          window.flutter_inappwebview.callHandler('goToSuccessPage', '');
-     }
+});
 </script>
 </body>
 
